@@ -19,7 +19,7 @@ In this Challenge, you will configure high availability by using availability zo
    ![alt text](/images/image.png)
    - Public IP Address : http://20.242.139.123/
    - Open a new browser tab, go to http://<PIP>, and then verify that the web app displays Web app instance: VM1.
-   ![alt text]({/images/9625B0DA-8B95-4067-B9D5-531D37A7DBE1}.png)
+   ![alt text](/images/{9625B0DA-8B95-4067-B9D5-531D37A7DBE1}.png9625B0DA-8B95-4067-B9D5-531D37A7DBE1.png)
 
 ### Create a custom virtual machine image
   - Connect to VM1 by using RDP, and then sign in as AzureAdmin using examplepassword as the password.
