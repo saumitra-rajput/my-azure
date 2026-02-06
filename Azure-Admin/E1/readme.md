@@ -16,7 +16,7 @@ In this Challenge, you will configure high availability by using availability zo
    - Open Microsoft Edge, sign in to the Microsoft Azure portal at https://portal.azure.com as
    - Select the Type Text icon to enter the associated text into the virtual machine.
    - Record the public IP address of VM1 in the following Public IP Address text box:
-   ![alt text](images/image.png)
+   ![alt text](/images/image.png)
    - Public IP Address : http://20.242.139.123/
    - Open a new browser tab, go to http://<PIP>, and then verify that the web app displays Web app instance: VM1.
    ![alt text]({9625B0DA-8B95-4067-B9D5-531D37A7DBE1}.png)
