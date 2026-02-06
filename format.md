@@ -8,4 +8,4 @@
 
 ### Test the web app on a single virtual machine
 
-### Summary
+### Summary :shipit:

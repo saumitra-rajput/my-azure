@@ -6,7 +6,7 @@ In this directory I will be going to add examples of mutliple types of Azure ser
 
 In Files will have unique file nameing convention followed by numbers in order.
 
-For example:
+For example: :shipit:
 - E1 = Expert level number 1
 - A1 = Advance level number 1
 - B1 = Beginner level number 1

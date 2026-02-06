@@ -17,9 +17,9 @@ In this Challenge Lab, you will configure a network security group to allow secu
    - Sign in to the Microsoft Azure portal.
    - Select the Copy to clipboard icon to copy the text string to the clipboard.
    - Create an Application security group named webapp201-asg in the (US) East US region by using the RG1lod58912079 resource group.
-   ![alt text]({C7A017F7-FA7F-4B2D-BD9E-6CDFF8439A45}.png)
+   ![alt text](/images/b21.png)
    - Create a Network security group named webapp201-nsg in the (US) East US region by using the RG1lod58912079 resource group.
-   ![alt text]({B6BD9AED-34A7-4A5D-B101-F16E209BD0BD}.png)
+   ![alt text](/images/b22.png)
    - It may take approximately 1-2 minutes to deploy the network security group. Wait for the deployment to finish before continuing.
 Check your work
 
@@ -31,11 +31,11 @@ Check your work
 
   - Associate the webapp201-nsg network security group to the frontend subnet in the VNET virtual network.
   
-![alt text]({1F8CD871-1020-49ED-865D-CCB6AA207922}.png)
+![alt text](/images/b23.png)
 
   - Associate the webapp201-asg application security group to the RG1lod58912079 NIC on the VM1 virtual machine.
 
-  ![alt text]({38677249-2FB0-4CBE-B2D4-6DB49FCB70F0}.png)
+  ![alt text](/images/b24.png)
   - Record the Primary NIC public IP of VM1 in the following Public IP Address text box:
   - Public IP Address : 20.237.109.45 (VM1-ip)
   - You will use the public IP address in an upcoming task.
@@ -62,15 +62,19 @@ Check your work
 
 - Verify that the SSH connection to the Linux virtual machine has timed out.
 
+![alt text](/images/b25.png)
 
 
 ### Create an inbound security rule to allow SSH
 
 
-Create an inbound security rule named AllowSSH in the webapp201-nsg network security group, and then configure the rule to allow incoming TCP traffic on port 22 to the webapp201-asg application security group.
-Wait for the rule creation to finish before continuing.
-Open Cloud Shell, connect to the virtual machine at azureadmin@20.237.109.45 (VM1-ip) by using an ssh connection, and then when prompted, enter AzurePassw0rd! as the password.
-Because this is a Linux virtual machine, you will not see the password displayed in Cloud Shell.
+  - Create an inbound security rule named AllowSSH in the webapp201-nsg network security group, and then configure the rule to allow incoming TCP traffic on port 22 to the webapp201-asg application security group.
+
+  ![alt text](/images/b26.png)
+  - Wait for the rule creation to finish before continuing.
+  - Open Cloud Shell, connect to the virtual machine at azureadmin@20.237.109.45 (VM1-ip) by using an ssh connection, and then when prompted, enter AzurePassw0rd! as the password.
+  ![alt text](/images/b27.png)
+  - Because this is a Linux virtual machine, you will not see the password displayed in Cloud Shell.
 
 Check your work
 
@@ -79,4 +83,13 @@ Verify that you have created an inbound security rule named AllowSSH that allows
 ### Test the web app on a single virtual machine
 
 ### Summary
+
+Congratulations! :shipit:
+
+You have completed the Configure a Network Security Group in a Virtual Network Challenge Lab.
+You have accomplished the following:
+Created Azure security groups.
+Associated Azure security groups to Azure resources.
+Connected to a Linux virtual machine by using SSH.
+Created an inbound security rule to allow SSH.
 
