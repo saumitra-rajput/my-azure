@@ -4,14 +4,13 @@
 
 In this challenge, we will configure a near real-time metric alert. First, you will create a Linux virtual machine. Next, you will create an action group, and then you will create a near real-time metric alert that uses the action group. Finally, you will test the alert.
 
-## Challenge 
+## Overview 
 You are an Administrator with Hexelo, an organization that needs to manage virtual machines in Azure®.
 In this Challenge Lab, you will configure a near real-time metric alert. First, you will create a Linux virtual machine. Next, you will create an action group, and then you will create a near real-time metric alert that uses the action group. Finally, you will test the alert.
 
 ## Started
 
-
-
+### Create a new Linux VM
 
    - Sign in to the Microsoft Azure portal.
    - Select the Copy to clipboard icon to copy the text string to the clipboard.

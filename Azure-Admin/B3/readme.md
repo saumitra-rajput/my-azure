@@ -1,13 +1,16 @@
 # Configure a Route Table by Using the Azure Portal
+
+## About
+In this challenge, you will create a route table using Azure Marketplace and define static routes. Note: Once you begin a challenge you will not be able to pause, save, or return to your progress. Please ensure you have set aside enough time to complete the challenge before you start.
+## Overview 
+
 Challenge Overview
 
 Understand the scenario
 You are an Administrator with Hexelo, a company that is deploying virtual networks for Azure workloads. You need to ensure that traffic is routed through an Azure Firewall. In this challenge you will create a route table to manage the traffic for Azure Firewall. Then, you will create an Azure Firewall in a pre-configured virtual network. Finally, you will create a user-defined route to route the resources in your subnet so they can use the Azure Firewall.
 Navigating the Challenge Lab
 
-## About
-In this challenge, you will create a route table using Azure Marketplace and define static routes. Note: Once you begin a challenge you will not be able to pause, save, or return to your progress. Please ensure you have set aside enough time to complete the challenge before you start.
-## Challenge 
+## Started
 
 ### Create a route tabl
 

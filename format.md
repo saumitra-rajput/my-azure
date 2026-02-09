@@ -2,10 +2,11 @@
 
 ## About
 
-## Challenge 
+## Overview 
 
 ## Started
 
-### Test the web app on a single virtual machine
+### Steps
+- Sign in to the Microsoft Azure portal.
 
 ### Summary :shipit:

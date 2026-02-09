@@ -4,7 +4,7 @@
 
 In this challenge, we will create a custom image, use the image to create a scale set with availability zones, configure autoscale, and deploy an update to the scale set using a custom script extension. 
 
-## Challenge 
+## Overview 
 > Understand the scenario
 Assume :
 You are an Adminstrator for Hexelo, an organization that needs to Automate and Manage Custom, Scalable Azure VM-Based Infrastructure Solutions

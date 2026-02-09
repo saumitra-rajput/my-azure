@@ -5,13 +5,14 @@
 
 In this challenge, you will configure a network security group to allow secure shell (SSH) connections to a virtual machine. First, you will create an application security group, and then you will create a network security group. Next, you will associate the network security group to a subnet in the virtual network, and then you will associate the application security group to the network interface on the virtual machine. Finally, you will add an inbound security rule, and then you will verify that you can connect to the virtual machine in the subnet by using SSH. 
 
-## Challenge 
+## Overview 
 
 Understand the scenario
 
 You are a Security Engineer for Hexelo, an organization that needs to manage network security in an Azure® virtual network.
 In this Challenge Lab, you will configure a network security group to allow secure shell (SSH) connections to a virtual machine. First, you will create an application security group, and then you will create a network security group. Next, you will associate the network security group to a subnet in the virtual network, and then you will associate the application security group to the network interface on the virtual machine. Finally, you will add an inbound security rule, and then you will verify that you can connect to the virtual machine in the subnet by using SSH.
 
+## Started
 ## Create Azure security groups
 
    - Sign in to the Microsoft Azure portal.
