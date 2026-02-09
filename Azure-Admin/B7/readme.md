@@ -90,6 +90,9 @@ Check your work
 
 
 ![alt text](/images/b77.png)
+![alt text](/images/b756.png)
+
+
 
 - Ensure that the wa58976641 Status is Running, open the Web App home page by using the Default domain, and then select the Test Blob Containers link to open the File Test page.
 
