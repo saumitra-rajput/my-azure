@@ -1,7 +1,7 @@
 # Configure a Virtual Machine by Using a Custom Script Extension
 
 ## About
-In this challenge, you will automate the configuration of a web app on a new server. First, you will create a storage account, and then you will create a Windows virtual machine. Next, you will create the configuration files. Finally, you will apply a PowerShell Desired State Configuration (DSC) extension, and then you will verify that the web app loads. Note: Once you begin the challenge, you will not be able to pause, save, or exit and then return to your challenge. Please ensure that you have set aside enough time to complete the challenge before you start.
+In this challenge, you will automate the configuration of a web app on a new server. First, you will create a storage account, and then you will create a Windows virtual machine. Next, you will create the configuration files. Finally, you will apply a PowerShell Desired State Configuration (DSC) extension, and then you will verify that the web app loads.
 
 ## Overview 
 Understand the scenario
