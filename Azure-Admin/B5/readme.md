@@ -20,7 +20,7 @@ Navigating the Challenge Lab
 - Create a storage account named sa58969671ais in the rg1lod58969671 resource group by using the default settings.
 - Add a container named scripts to the sa58969671ais storage account.
 
-![alt text]({8A05FF00-5694-440C-A2C6-0AC606BD60B3}.png)
+![alt text](/images/b51.png)
 
 Check your work
 - Verify that you have created a storage account.
@@ -45,7 +45,7 @@ Virtual Machine Configuration
 | **Select inbound ports** | HTTP (80), RDP (3389) |
 | **Boot diagnostics** | Disable |
 
-![alt text]({6A053F7A-DCD2-4AC5-972D-293B13139423}.png)
+![alt text](/images/b52.png)
 - While it is possible to add the PowerShell DSC extension at the time you create the virtual machine, in this Challenge Lab, you will add the extension in the next step.
 - Do not continue until the deployment is complete. This will take approximately 2-4 minutes.
 - Record the public IP address of VM1 in the following Public IP Address text box:
@@ -55,7 +55,7 @@ Public IP Address : 172.208.49.45
 
 - You will use the public IP address in an upcoming task.
 
-![alt text]({FAF41E01-249F-4528-A27C-7BEAC410C17D}.png)
+![alt text](/images/b53.png)
 
 Check your work
 
@@ -68,23 +68,23 @@ Check your work
 [Link](https://raw.githubusercontent.com/LODSContent/ChallengeLabs_ArmResources/master/Labs/AIS/WebApp.ps1?fireglass_rsn=true#fireglass_params&tabid=a8a3a4004ab45bd0&application_server_address=hclindiawi-3-asia-south1.prod.fire.glass&popup=true&is_right_side_popup=false&start_with_session_counter=1)
 
 - Create a ZIP file named WebApp.zip that contains only the file WebApp.ps1.
-![alt text]({56B2E29A-DFB0-49F5-BD8D-A5CF94DA77C3}.png)
+![alt text](/images/b54.png)
 - Make sure you do not add any extra files or folders.
 - Copy the configuration for the deployment from the allnodes.psd1 PowerShell module manifest file, paste the content into a text editor on your local computer, and then save the file on your desktop as allnodes.psd1.
 [Link](https://raw.githubusercontent.com/LODSContent/ChallengeLabs_ArmResources/master/Labs/AIS/allnodes.psd1?fireglass_rsn=true#fireglass_params&tabid=a5aa649515b669c0&application_server_address=hclindiawi-3-asia-south1.prod.fire.glass&popup=true&is_right_side_popup=false&start_with_session_counter=1)
 
-![alt text]({0F3B8E5B-1BD6-4C79-B3ED-AD527F087565}.png)
+![alt text](/images/b55.png)
 
 Upload the WebApp.zip and allnodes.psd1 files to the scripts container in the sa58969671ais storage account.
 
-![alt text]({8E7AA26D-6FD1-4908-B5CA-16251B756781}.png)
+![alt text](/images/b56.png)
 Check your work
 Verify that you have uploaded the WebApp.zip and allnodes.psd1 files to the scripts container in the storage account.
 
 ### dd a PowerShell DSC extension
 
 Add a PowerShell Desired State Configuration extension for VM1, and then configure the extension by using the values in the following table. For any property that is not specified, use the default value.
-![alt text]({C648B783-025A-4E05-AA2D-E74756E1063F}.png)
+![alt text](/images/b57.png)
 
 | Property | Value |
 | :--- | :--- |
@@ -92,7 +92,7 @@ Add a PowerShell Desired State Configuration extension for VM1, and then configu
 | **Module-qualified Name of Configuration** | WebApp.ps1\WebApp |
 | **Configuration Data PSD1 File** | allnodes.psd1 |
 
-![alt text]({D4471004-D53E-431A-9CA0-E985675BA1B0}.png)
+![alt text](/images/b58.png)
 
 - Version	The latest version specified on the Azure DSC extension version history page
 Wait until the DSC extension has been provisioned.
