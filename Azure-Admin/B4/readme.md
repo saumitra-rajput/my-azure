@@ -17,11 +17,11 @@ In this Challenge Lab, you will automate the configuration of a web app on a new
 - Sign in to the Azure portal.
 - Select the Copy to clipboard icon to copy the text string to the clipboard.
 - Create a storage account named sa58968062ais in the rg1lod58968062 resource group by using the default settings.
-![alt text]({93DE175F-8F98-4BAE-AE25-D8CB50AF43D7}.png)
+![alt text](/images/b41.png)
 
 - Add a container named scripts to the sa58968062ais storage account.
 
-![alt text]({FD4D46E5-7B80-4948-8F5F-070DD85DCFA3}.png)
+![alt text](/images/b42.png)
 
 ### Create an Azure virtual machine
 
@@ -37,10 +37,10 @@ In this Challenge Lab, you will automate the configuration of a web app on a new
 | **Select inbound ports** | HTTP (80), RDP (3389) |
 | **Boot diagnostics** | Disable |
 - While it is possible to add the custom script extension at the time that you create the virtual machine, in this Challenge Lab, you will add the extension in the next task.
-![alt text]({E012D03E-1242-40FF-9466-9D9DA988E332}.png)
+![alt text](/images/b43.png)
 - Do not continue until the deployment is complete. This may take a few minutes.
 - Record the public IP address of VM1 in the following Public IP Address text box:
-![alt text]({943361D8-4FDA-4724-AC5B-A360F27FEB3F}.png)
+![alt text](/images/b44.png)
 Public IP Address: 74.235.200.237
 
 You will use the public IP address in an upcoming task.
@@ -61,30 +61,30 @@ Invoke-WebRequest 'https://raw.githubusercontent.com/LODSContent/ChallengeLabs_A
 ```
 - Upload the Install-WebApp.ps1 file to the scripts container in the sa58968062ais storage account.
 Check your work
-![alt text]({5709DB2F-ED06-4867-B413-08992CA2BE31}.png)
+![alt text](/images/b45.png)
 
 - Verify that you have uploaded the Install-WebApp.ps1 file to the scripts container in the storage account.
 
-![alt text]({4AF3AA56-E5C2-4B9D-8D84-7D3A79FB8A7D}.png)
+![alt text](/images/b46.png)
 
 
 ### Add a custom script extension
 
 - Add a custom script extension for the VM1 virtual machine by using the Install-webApp.ps1 script file in the sa58968062ais storage account.
-![alt text]({7E7C2B2F-8980-45EC-89AC-D901251ACCCD}.png)
+![alt text](/images/b47.png)
 
 - Wait until the custom script extension has been provisioned.
-![alt text]({E6EC45A9-8368-4F50-92F0-2633E827C5FC}.png)
+![alt text](/images/b48.png)
 - The custom script extension showing a status of provisioning succeeded
 This will take approximately 3-5 minutes.
-![alt text]({CC1171F4-7A6C-4373-9E82-272F37883DA2}.png)
+![alt text](/images/b49.png)
 - Open a new browser window, go to http://74.235.200.237 to test the configuration, and then refresh the browser window until the Test Web App Deployment page is displayed.
 - It may take as long as 10 minutes for the virtual machine extension to be created and for the script to finish running, but you can start testing and refreshing the page while the Azure deployment is still in progress. When the deployment is finished, you will see the following web page:
 Before Script Deployment
-![alt text]({F5B5DCFE-CE96-40F8-932E-B50D4B147EA7}.png)
+![alt text](/images/b410.png)
 
 The Test Web App Deployment page
-![alt text]({E47815E2-087E-4C15-8A08-818624BFB83B}.png)
+![alt text](/images/b411.png)
 > Check your work
 - Verify that you have added a custom script extension to VM1 by using the Install-webApp.ps1 script.
 - Verify that you have displayed the Test Web App Deployment page that was installed by the custom script extension.
