@@ -28,12 +28,12 @@ In this Challenge Lab, you will configure an Azure® virtual machine scale set. 
 | Select a load balancer | Create a load balancer |
 | Load balancer name | webappscaleset-lb |
 
-![alt text](image.png)
+![alt text](/images/b61.png.png)
 
 - The deployment will take 2-3 minutes to complete.
 
 - Verify that there are two virtual machine instances running in the webappscaleset scale set.
-![alt text](image-1.png)
+![alt text](/images/b62.png.png)
 Check your work
 - Verify that you have created a VM scale set that has 2 instances.
 
@@ -44,10 +44,10 @@ Check your work
 ```
 az vmss scale --resource-group rg1lod58975668 --name webappscaleset --new-capacity 3
 ```
-![alt text](image-2.png)
+![alt text](/images/b63.png.png)
 
 - Verify that there are three virtual machine instances running in the webappscaleset scale set.
-![alt text](image-3.png)
+![alt text](/images/b64.png.png)
 - Periodically refresh the Instances page until you see three running virtual machines that have a Status of Running. You may temporarily see an extra virtual machine instance being created, which is a normal part of the imaging process. Ultimately, you will end up with three virtual machines after this step.
 
 - The Instances page with three instances displayed
@@ -59,13 +59,13 @@ Check your work
 
 
 - Deallocate the webappscaleset_0 virtual machine instance in the webappscaleset scale set.
-![alt text](image-4.png)
+![alt text](/images/b65.png.png)
 - Refresh the Instances page and then verify that the status of the webappscaleset_0 instance is Stopped (deallocated).
 Check your work
 - Verify that you have deallocated instance zero in the VM scale set.
 
 
-![alt text](image-5.png)
+![alt text](/images/b66.png.png)
 
 ### Summary :shipit:
 
